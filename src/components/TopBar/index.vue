@@ -1,19 +1,15 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 15:48:11
- * @LastEditTime: 2021-07-31 11:57:20
+ * @LastEditTime: 2021-07-31 13:12:06
  * @Description : 顶部栏
 -->
 <template>
   <div class="container">
     <el-menu
       :default-active="activeIndex"
-      class="el-menu-demo"
       mode="horizontal"
       @select="handleSelect"
-      background-color="#545c64"
-      text-color="#fff"
-      active-text-color="#ffd04b"
     >
       <el-menu-item index="1">处理中心</el-menu-item>
       <el-submenu index="2">
