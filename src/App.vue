@@ -1,13 +1,13 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 11:49:52
- * @LastEditTime: 2021-07-30 15:46:09
+ * @LastEditTime: 2021-07-31 11:38:32
  * @Description : 根组件
 -->
 <template>
   <div id="app">
     <router-view />
-    <a-back-top />
+    <el-backtop></el-backtop>
   </div>
 </template>
 

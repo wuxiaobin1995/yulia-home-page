@@ -1,42 +1,37 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 15:48:11
- * @LastEditTime: 2021-07-30 18:01:03
+ * @LastEditTime: 2021-07-31 11:57:20
  * @Description : 顶部栏
 -->
 <template>
   <div class="container">
-    <a-menu
-      v-model="current"
+    <el-menu
+      :default-active="activeIndex"
+      class="el-menu-demo"
       mode="horizontal"
-      theme="dark"
-      @click="handleClick"
+      @select="handleSelect"
+      background-color="#545c64"
+      text-color="#fff"
+      active-text-color="#ffd04b"
     >
-      <a-menu-item key="home"> <a-icon type="home" />首页</a-menu-item>
-      <a-menu-item key="about"><a-icon type="home" />关于</a-menu-item>
-
-      <a-sub-menu>
-        <span slot="title" class="submenu-title-wrapper"
-          ><a-icon type="setting" />Navigation Three - Submenu</span
-        >
-        <a-menu-item-group title="Item 1">
-          <a-menu-item key="setting:1">
-            Option 1
-          </a-menu-item>
-          <a-menu-item key="setting:2">
-            Option 2
-          </a-menu-item>
-        </a-menu-item-group>
-        <a-menu-item-group title="Item 2">
-          <a-menu-item key="setting:3">
-            Option 3
-          </a-menu-item>
-          <a-menu-item key="setting:4">
-            Option 4
-          </a-menu-item>
-        </a-menu-item-group>
-      </a-sub-menu>
-    </a-menu>
+      <el-menu-item index="1">处理中心</el-menu-item>
+      <el-submenu index="2">
+        <template slot="title">我的工作台</template>
+        <el-menu-item index="2-1">选项1</el-menu-item>
+        <el-menu-item index="2-2">选项2</el-menu-item>
+        <el-menu-item index="2-3">选项3</el-menu-item>
+        <el-submenu index="2-4">
+          <template slot="title">选项4</template>
+          <el-menu-item index="2-4-1">选项1</el-menu-item>
+          <el-menu-item index="2-4-2">选项2</el-menu-item>
+          <el-menu-item index="2-4-3">选项3</el-menu-item>
+        </el-submenu>
+      </el-submenu>
+      <el-menu-item index="4"
+        ><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item
+      >
+    </el-menu>
   </div>
 </template>
 
@@ -46,17 +41,13 @@ export default {
 
   data() {
     return {
-      current: ['home'] // 默认当前路由
+      activeIndex: '1'
     }
   },
 
   methods: {
-    /**
-     * @description: 路由跳转
-     * @param {*} item
-     */
-    handleClick(item) {
-      this.$router.push({ path: `/${item.key}` })
+    handleSelect(key, keyPath) {
+      console.log(key, keyPath)
     }
   }
 }

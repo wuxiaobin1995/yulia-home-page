@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 11:56:37
- * @LastEditTime: 2021-07-30 17:03:00
+ * @LastEditTime: 2021-07-31 11:39:31
  * @Description : 首页
 -->
 <template>
@@ -22,7 +22,7 @@ export default {
   height: 100%;
 
   .demo {
-    height: 1000px;
+    height: 2000px;
   }
 }
 </style>
