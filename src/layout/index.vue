@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 15:10:44
- * @LastEditTime: 2021-08-02 20:41:03
+ * @LastEditTime: 2021-08-03 00:30:10
  * @Description : 布局组件
 -->
 <template>
@@ -39,6 +39,7 @@ export default {
 .container {
   width: 100%;
   height: 100%;
+  min-width: 1200px;
 
   /* 顶部栏 */
   .top-wrapper {
@@ -48,11 +49,11 @@ export default {
     box-shadow: 0 4px 8px 0 rgb(184, 184, 184); // 添加下阴影
     position: fixed;
     top: 0px;
+    z-index: 1001;
   }
 
   /* 内容区 */
   .content-wrapper {
-    flex: 1;
     margin-top: 60px;
   }
 

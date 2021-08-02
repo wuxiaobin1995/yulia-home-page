@@ -1,7 +1,7 @@
 /*
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 11:49:52
- * @LastEditTime: 2021-08-02 21:01:47
+ * @LastEditTime: 2021-08-02 23:42:20
  * @Description : 入口
  */
 import Vue from 'vue'
@@ -17,12 +17,15 @@ import Antd from 'ant-design-vue'
 import 'ant-design-vue/dist/antd.css'
 /* 引入进度条插件 */
 import QProgress from 'qier-progress'
-const qprogress = new QProgress()
+
+/* 引入轮播图插件 */
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
 
 Vue.use(Antd)
+Vue.use(VueAwesomeSwiper)
 
-Vue.config.productionTip = false
-
+const qprogress = new QProgress()
 router.beforeEach((to, from, next) => {
   // 每次切换页面时，调用进度条
   qprogress.start()
@@ -33,6 +36,8 @@ router.afterEach(() => {
   // 在即将进入新的页面组件前，关闭掉进度条
   qprogress.finish()
 })
+
+Vue.config.productionTip = false
 
 new Vue({
   router,
