@@ -1,7 +1,7 @@
 /*
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 11:49:52
- * @LastEditTime: 2021-07-30 17:43:36
+ * @LastEditTime: 2021-08-02 20:24:08
  * @Description : 路由
  */
 import Vue from 'vue'
@@ -28,11 +28,23 @@ const routes = [
         name: 'home',
         component: () => import('@/views/home')
       },
-      // 关于
+      // 时间线
       {
-        path: 'about',
-        name: 'about',
-        component: () => import('@/views/about')
+        path: 'time-line',
+        name: 'time-line',
+        component: () => import('@/views/time-line')
+      },
+      // 视频投稿
+      {
+        path: 'video-submissions',
+        name: 'video-submissions',
+        component: () => import('@/views/video-submissions')
+      },
+      // 二创组
+      {
+        path: 'create-group',
+        name: 'create-group',
+        component: () => import('@/views/create-group')
       }
     ]
   },

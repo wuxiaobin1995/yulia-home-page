@@ -1,26 +1,24 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 15:26:54
- * @LastEditTime: 2021-07-31 11:50:49
+ * @LastEditTime: 2021-08-02 18:59:03
  * @Description : 404页面
 -->
 <template>
   <div class="container">
-    <el-empty
-      :image="require('@/assets/images/404.png')"
-      :image-size="450"
-      description=" "
+    <a-empty
+      :image="require('@/assets/image/404.png')"
+      :image-style="{
+        height: '500px'
+      }"
     >
-      <div class="text">{{ `呜呜呜，页面找不到了，/(ㄒoㄒ)/~~` }}</div>
-      <el-button
-        class="btn"
-        type="danger"
-        icon="el-icon-view"
-        @click="handleGoHome"
+      <span class="text" slot="description">
+        {{ `呜呜呜，页面找不到了，/(ㄒoㄒ)/~~` }}
+      </span>
+      <a-button class="btn" type="danger" icon="chrome" @click="handleGoHome"
+        >返回首页</a-button
       >
-        返回首页</el-button
-      >
-    </el-empty>
+    </a-empty>
   </div>
 </template>
 
@@ -47,12 +45,12 @@ export default {
 
   /* 文字描述 */
   .text {
-    font-size: 40px;
+    font-size: 50px;
   }
   /* 按钮 */
   .btn {
     margin-top: 30px;
-    height: 60px;
+    height: 50px;
     font-size: 26px;
   }
 }

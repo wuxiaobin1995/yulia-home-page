@@ -1,18 +1,18 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 17:03:36
- * @LastEditTime: 2021-07-31 11:40:36
- * @Description : 关于
+ * @LastEditTime: 2021-08-02 20:22:13
+ * @Description : 视频投稿
 -->
 <template>
   <div class="container">
-    <div class="demo">关于</div>
+    <div class="demo">视频投稿</div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'about'
+  name: 'video-submissions'
 }
 </script>
 

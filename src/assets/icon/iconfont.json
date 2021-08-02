@@ -1,0 +1,30 @@
+{
+  "id": "2717135",
+  "name": "yulia-home-page",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "尤利娅Yulia的个人网站",
+  "glyphs": [
+    {
+      "icon_id": "18943243",
+      "name": "Bilibili",
+      "font_class": "Bilibili",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "23229848",
+      "name": "车辆",
+      "font_class": "cheliang",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "9041192",
+      "name": "海洋",
+      "font_class": "haiyang",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    }
+  ]
+}
