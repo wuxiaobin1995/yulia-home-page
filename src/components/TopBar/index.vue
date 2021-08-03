@@ -1,14 +1,16 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 15:48:11
- * @LastEditTime: 2021-08-02 20:45:01
+ * @LastEditTime: 2021-08-03 15:05:33
  * @Description : 顶部栏
 -->
 <template>
   <div class="container">
     <!-- Logo -->
     <div class="logo-wrapper">
-      <img class="logo" :src="require('@/assets/logo/尤利娅logo.png')" />
+      <router-link to="/home">
+        <img class="logo" :src="require('@/assets/logo/尤利娅logo.png')" />
+      </router-link>
     </div>
 
     <!-- 菜单栏 -->
