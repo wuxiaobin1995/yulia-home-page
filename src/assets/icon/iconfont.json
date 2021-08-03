@@ -6,25 +6,46 @@
   "description": "尤利娅Yulia的个人网站",
   "glyphs": [
     {
+      "icon_id": "3901489",
+      "name": "90-皇冠",
+      "font_class": "-huangguan",
+      "unicode": "e890",
+      "unicode_decimal": 59536
+    },
+    {
+      "icon_id": "16328018",
+      "name": "唱歌",
+      "font_class": "changge",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "17619359",
+      "name": "钢琴",
+      "font_class": "gangqin",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "17966137",
+      "name": "舞蹈艺术业",
+      "font_class": "wudaoyishuye",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "20445591",
+      "name": "艺术家",
+      "font_class": "bianzu",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
       "icon_id": "18943243",
       "name": "Bilibili",
       "font_class": "Bilibili",
       "unicode": "e627",
       "unicode_decimal": 58919
-    },
-    {
-      "icon_id": "23229848",
-      "name": "车辆",
-      "font_class": "cheliang",
-      "unicode": "e690",
-      "unicode_decimal": 59024
-    },
-    {
-      "icon_id": "9041192",
-      "name": "海洋",
-      "font_class": "haiyang",
-      "unicode": "e614",
-      "unicode_decimal": 58900
     }
   ]
 }

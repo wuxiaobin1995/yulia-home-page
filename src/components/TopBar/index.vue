@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 15:48:11
- * @LastEditTime: 2021-08-03 17:48:50
+ * @LastEditTime: 2021-08-03 23:30:12
  * @Description : 顶部栏
 -->
 <template>
@@ -11,7 +11,18 @@
       <router-link to="/home">
         <img class="logo" :src="require('@/assets/logo/尤利娅logo.png')" />
       </router-link>
+      <div class="text">Atlantis</div>
     </div>
+
+    <!-- 搜索框 -->
+    <a-input-search
+      size="large"
+      placeholder="🐟 搜索功能暂未开放..."
+      style="width: 300px"
+      allow-clear
+      disabled
+      @search="handleSearch"
+    />
 
     <!-- 菜单栏 -->
     <div class="menu-wrapper">
@@ -44,7 +55,12 @@
       <a-button class="btn" type="dashed" icon="link" @click="handleGoLive">
         直播间
       </a-button>
-      <a-button class="btn" type="danger" icon="money-collect" @click="handleGoAFD">
+      <a-button
+        class="btn"
+        type="danger"
+        icon="money-collect"
+        @click="handleGoAFD"
+      >
         爱发电
       </a-button>
     </div>
@@ -56,6 +72,13 @@ export default {
   name: 'TopBar',
 
   methods: {
+    /**
+     * @description: 搜索框
+     */
+    handleSearch(value) {
+      // console.log(value)
+    },
+
     /**
      * @description: 跳转至首页
      */
@@ -113,9 +136,16 @@ export default {
   /* Logo */
   .logo-wrapper {
     height: 100%;
-    margin-left: 200px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
     .logo {
-      height: 100%;
+      height: 60px;
+    }
+    .text {
+      margin-left: 6px;
+      font-size: 26px;
+      font-variant: small-caps;
     }
   }
 
