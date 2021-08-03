@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 15:48:11
- * @LastEditTime: 2021-08-03 15:05:33
+ * @LastEditTime: 2021-08-03 17:48:50
  * @Description : 顶部栏
 -->
 <template>
@@ -43,6 +43,9 @@
       </a-button>
       <a-button class="btn" type="dashed" icon="link" @click="handleGoLive">
         直播间
+      </a-button>
+      <a-button class="btn" type="danger" icon="money-collect" @click="handleGoAFD">
+        爱发电
       </a-button>
     </div>
   </div>
@@ -88,6 +91,12 @@ export default {
      */
     handleGoLive() {
       window.open('https://live.bilibili.com/22506899', '_blank')
+    },
+    /**
+     * @description: 跳转至爱发电
+     */
+    handleGoAFD() {
+      window.open('https://afdian.net/@Yulialove', '_blank')
     }
   }
 }
