@@ -1,7 +1,7 @@
 /*
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 11:49:52
- * @LastEditTime: 2021-08-03 20:56:04
+ * @LastEditTime: 2021-08-04 11:19:16
  * @Description : 入口
  */
 import Vue from 'vue'
@@ -17,7 +17,7 @@ import Antd from 'ant-design-vue'
 import 'ant-design-vue/dist/antd.css'
 /* 引入进度条插件 */
 import QProgress from 'qier-progress'
-/* 引入轮播图插件 */
+/* 引入轮播图插件，请用3.x版本 */
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
 

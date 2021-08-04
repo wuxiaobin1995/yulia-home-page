@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 15:48:11
- * @LastEditTime: 2021-08-03 23:30:12
+ * @LastEditTime: 2021-08-04 15:49:50
  * @Description : 顶部栏
 -->
 <template>
@@ -9,7 +9,7 @@
     <!-- Logo -->
     <div class="logo-wrapper">
       <router-link to="/home">
-        <img class="logo" :src="require('@/assets/logo/尤利娅logo.png')" />
+        <img class="logo" :src="require('@/assets/image/logo/尤利娅logo.png')" />
       </router-link>
       <div class="text">Atlantis</div>
     </div>
