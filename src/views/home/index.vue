@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 11:56:37
- * @LastEditTime: 2021-08-04 17:52:26
+ * @LastEditTime: 2021-08-05 17:20:07
  * @Description : 首页
 -->
 <template>
@@ -34,7 +34,7 @@
               <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-bianzu"></use>
               </svg>
-              &nbsp;&nbsp;简介
+              简介
             </span>
             <div class="tab-item-wrapper one">
               <!-- 左侧介绍栏 -->
@@ -44,7 +44,7 @@
                 <!-- 标签 -->
                 <div class="tags">
                   <div class="item">
-                    UID&nbsp;：
+                    UID：
                     <a-tag color="green">
                       650573749
                     </a-tag>
@@ -99,19 +99,19 @@
               <!-- 详细介绍 -->
               <div class="one-content">
                 <p>
-                  &nbsp;&nbsp;&nbsp;&nbsp;✨完全属于自己，无公会，非签约，独立个人势，不是全职✨
+                  ✨完全属于自己，无公会，非签约，独立个人势，不是全职✨
                 </p>
                 <p>
-                  &nbsp;&nbsp;&nbsp;&nbsp;尤利娅Yulia（鱼鱼、理理、lili、尤老师、牛老师、鱼人、腮人、SUREN）沉睡多年苏醒的塞壬来到陆地上学习！
+                  尤利娅Yulia（鱼鱼、理理、lili、尤老师、牛老师、鱼人、腮人、SUREN）沉睡多年苏醒的塞壬来到陆地上学习！
                 </p>
                 <p>
-                  &nbsp;&nbsp;&nbsp;&nbsp;因为是塞壬，所以很喜欢唱歌！并且唱歌很好听！是黑听人的理想直播间！但是如果可以的话还请多发弹幕应援（鞠躬）
+                  因为是塞壬，所以很喜欢唱歌！并且唱歌很好听！是黑听人的理想直播间！但是如果可以的话还请多发弹幕应援（鞠躬）
                   性子很直，说话也很直，开心就是开心，不开心就是不开心，对待工作的态度非常认真，有着“一件事情要做就要把它做好”的信念，总是想把作品做到最好再呈现给大家
                   当VUP是为了让更多人能够听见自己的歌声，并不打算拿VUP当做一个吃饭的职业，所以能够做到把所有收入拿出来在投
                   入进来，甚至自己还另外掏钱出来投入（债务增加中...）。
                 </p>
                 <p>
-                  &nbsp;&nbsp;&nbsp;&nbsp;因为只打算当做兴趣爱好来做所以没打算加入任何工会、企业、社团，也没和叔叔签约。
+                  因为只打算当做兴趣爱好来做所以没打算加入任何工会、企业、社团，也没和叔叔签约。
                 </p>
               </div>
             </div>
@@ -123,7 +123,7 @@
               <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-changge"></use>
               </svg>
-              &nbsp;&nbsp;歌唱
+              歌唱
             </span>
             <div class="tab-item-wrapper two">
               <div class="two-content">
@@ -149,7 +149,7 @@
               <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-gangqin"></use>
               </svg>
-              &nbsp;&nbsp;乐器
+              乐器
             </span>
             <div class="tab-item-wrapper three">
               <div class="three-content">
@@ -164,7 +164,7 @@
               <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-wudaoyishuye"></use>
               </svg>
-              &nbsp;&nbsp;舞蹈
+              舞蹈
             </span>
             <div class="tab-item-wrapper four">
               <div class="four-content">
@@ -179,7 +179,7 @@
               <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon--huangguan"></use>
               </svg>
-              &nbsp;&nbsp;特长
+              特长
             </span>
             <div class="tab-item-wrapper five">
               <div class="five-content">
@@ -372,7 +372,8 @@ export default {
       left: 0;
       width: 100%;
       height: 740px;
-      background: url('../../assets/image/轮播图背景.png') 50% 50% no-repeat;
+      background: url('../../assets/image/背景图/轮播图背景.png') 50% 50%
+        no-repeat;
       filter: blur(6px);
       z-index: -1;
     }
@@ -395,7 +396,7 @@ export default {
     // 卡片
     .card-wrapper {
       width: 80%;
-      box-shadow: 0 4px 6px 2px rgb(210, 210, 210); // 添加下阴影
+      box-shadow: 0 4px 6px 2px rgb(180, 180, 180); // 添加下阴影
       border-radius: 10px;
       .title {
         font-size: 32px;
@@ -426,6 +427,7 @@ export default {
           padding-top: 40px;
           padding-left: 40px;
           font-size: 22px;
+          text-indent: 2em;
         }
       }
       // 歌唱

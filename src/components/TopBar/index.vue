@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 15:48:11
- * @LastEditTime: 2021-08-04 15:49:50
+ * @LastEditTime: 2021-08-05 15:52:50
  * @Description : 顶部栏
 -->
 <template>
@@ -47,7 +47,7 @@
         icon="usergroup-add"
         @click="handleGoCreateGroup"
       >
-        二创组
+        二创相关
       </a-button>
       <a-button class="btn" type="dashed" icon="link" @click="handleGoB">
         B站主页
