@@ -6,6 +6,13 @@
   "description": "尤利娅Yulia的个人网站",
   "glyphs": [
     {
+      "icon_id": "23086672",
+      "name": "原创",
+      "font_class": "yuanchuang",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
       "icon_id": "3901489",
       "name": "90-皇冠",
       "font_class": "-huangguan",
