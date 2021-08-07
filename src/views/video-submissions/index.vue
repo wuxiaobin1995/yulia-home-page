@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 17:03:36
- * @LastEditTime: 2021-08-06 17:14:56
+ * @LastEditTime: 2021-08-07 11:47:56
  * @Description : 视频投稿
 -->
 <template>
@@ -31,10 +31,9 @@
                     <div class="content-wrapper">
                       <img
                         :src="
-                          require('@/assets/image/视频封面/不可触碰的行星.jpg')
+                          require('@/assets/image/视频封面/世事艰难我拥抱你.jpg')
                         "
                         class="video-img"
-                        object-fit="cover"
                       />
                       <div class="text-wrapper">
                         <div class="title">
@@ -217,18 +216,21 @@ export default {
         padding: 40px 120px;
 
         .card-wrapper {
-          border-radius: 10px;
+          border-radius: 8px;
           &:hover {
             box-shadow: 0 0 4px 4px rgb(255, 115, 0); // 添加下阴影
           }
           .content-wrapper {
             display: flex;
             align-items: center;
+            height: 130px;
             .video-img {
-              width: 190px;
-              height: 119px;
+              height: 100%;
+              border-radius: 6px;
             }
             .text-wrapper {
+              height: 100%;
+              overflow: hidden;
               flex: 1;
               color: #000;
               padding-left: 20px;
@@ -237,7 +239,7 @@ export default {
                 font-weight: 700;
               }
               .desc {
-                padding-top: 8px;
+                padding-top: 12px;
                 font-weight: lighter;
                 text-indent: 2em; // 首行缩进2字符
               }
