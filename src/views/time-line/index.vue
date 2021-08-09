@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-08-02 20:19:45
- * @LastEditTime: 2021-08-06 00:06:10
+ * @LastEditTime: 2021-08-09 10:30:22
  * @Description : 时间线
 -->
 <template>
@@ -10,7 +10,7 @@
       <div class="time-line-wrapper">
         <!-- 按钮 -->
         <a-button type="primary" @click="handleChangeReverse">
-          {{ this.reverse === true ? '正序' : '倒序' }}
+          排序
         </a-button>
 
         <!-- 时间线 -->
@@ -702,7 +702,7 @@
               slot="dot"
               class="icon"
               aria-hidden="true"
-              :style="{ 'font-size': '20px' }"
+              :style="{ 'font-size': '14px' }"
             >
               <use xlink:href="#icon-Bilibili"></use>
             </svg>
