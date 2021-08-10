@@ -6,11 +6,32 @@
   "description": "尤利娅Yulia的个人网站",
   "glyphs": [
     {
-      "icon_id": "23086672",
-      "name": "原创",
-      "font_class": "yuanchuang",
-      "unicode": "e630",
-      "unicode_decimal": 58928
+      "icon_id": "3327149",
+      "name": "视频 (1)",
+      "font_class": "shipin",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "15482280",
+      "name": "标记",
+      "font_class": "ziyuan10",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "17759378",
+      "name": "字幕组专区",
+      "font_class": "zimuzuzhuanqu",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "22358418",
+      "name": "美工",
+      "font_class": "meigong",
+      "unicode": "e653",
+      "unicode_decimal": 58963
     },
     {
       "icon_id": "3901489",

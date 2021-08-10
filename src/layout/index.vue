@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 15:10:44
- * @LastEditTime: 2021-08-04 10:36:31
+ * @LastEditTime: 2021-08-10 17:06:55
  * @Description : 布局组件
 -->
 <template>
@@ -60,8 +60,7 @@ export default {
   /* 底部栏 */
   .bottom-wrapper {
     width: 100%;
-    height: 200px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(50, 54, 57);
   }
 }
 </style>

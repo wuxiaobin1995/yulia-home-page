@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-08-02 20:19:45
- * @LastEditTime: 2021-08-09 10:30:22
+ * @LastEditTime: 2021-08-10 14:34:40
  * @Description : 时间线
 -->
 <template>
@@ -9,7 +9,7 @@
     <div class="time-line-container">
       <div class="time-line-wrapper">
         <!-- 按钮 -->
-        <a-button type="primary" @click="handleChangeReverse">
+        <a-button type="danger" @click="handleChangeReverse">
           排序
         </a-button>
 

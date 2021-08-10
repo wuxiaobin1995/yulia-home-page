@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 11:56:37
- * @LastEditTime: 2021-08-05 17:20:07
+ * @LastEditTime: 2021-08-10 16:00:13
  * @Description : 首页
 -->
 <template>
@@ -50,21 +50,27 @@
                     </a-tag>
                   </div>
                   <div class="item">
+                    住址：
+                    <a-tag color="cyan">
+                      亚特兰蒂斯王国
+                    </a-tag>
+                  </div>
+                  <div class="item">
                     身份：
                     <a-tag color="orange">
                       Atlantis-塞壬公主
                     </a-tag>
                   </div>
                   <div class="item">
-                    年龄：
-                    <a-tag color="gray">
-                      保密
+                    粉丝群：
+                    <a-tag color="pink">
+                      561506737
                     </a-tag>
                   </div>
                   <div class="item">
-                    性别：
-                    <a-tag color="pink">
-                      女
+                    年龄：
+                    <a-tag color="gray">
+                      保密
                     </a-tag>
                   </div>
                   <div class="item">
@@ -77,12 +83,6 @@
                     体重：
                     <a-tag color="">
                       180吨
-                    </a-tag>
-                  </div>
-                  <div class="item">
-                    住址：
-                    <a-tag color="cyan">
-                      亚特兰蒂斯王国
                     </a-tag>
                   </div>
                   <div class="item">
@@ -433,25 +433,33 @@ export default {
       // 歌唱
       .two {
         .two-content {
+          padding-top: 40px;
           font-size: 22px;
+          text-indent: 2em;
         }
       }
       // 乐器
       .three {
         .three-content {
+          padding-top: 40px;
           font-size: 22px;
+          text-indent: 2em;
         }
       }
       // 舞蹈
       .four {
         .four-content {
+          padding-top: 40px;
           font-size: 22px;
+          text-indent: 2em;
         }
       }
       // 特长
       .five {
         .five-content {
+          padding-top: 40px;
           font-size: 22px;
+          text-indent: 2em;
         }
       }
     }

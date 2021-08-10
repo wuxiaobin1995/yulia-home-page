@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 17:03:36
- * @LastEditTime: 2021-08-09 11:58:26
+ * @LastEditTime: 2021-08-10 15:36:41
  * @Description : 视频投稿
 -->
 <template>
@@ -22,7 +22,7 @@
               原创曲
             </span>
             <a-timeline :reverse="true">
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -58,7 +58,7 @@
                   </a>
                 </a-card>
               </a-timeline-item>
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -111,7 +111,7 @@
               翻唱曲
             </span>
             <a-timeline :reverse="true">
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -139,7 +139,7 @@
                   </a>
                 </a-card>
               </a-timeline-item>
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -169,7 +169,7 @@
                   </a>
                 </a-card>
               </a-timeline-item>
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -201,7 +201,7 @@
                   </a>
                 </a-card>
               </a-timeline-item>
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -233,7 +233,7 @@
                   </a>
                 </a-card>
               </a-timeline-item>
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -269,7 +269,7 @@
                   </a>
                 </a-card>
               </a-timeline-item>
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -299,7 +299,7 @@
                   </a>
                 </a-card>
               </a-timeline-item>
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -334,7 +334,7 @@
                   </a>
                 </a-card>
               </a-timeline-item>
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -363,7 +363,7 @@
                   </a>
                 </a-card>
               </a-timeline-item>
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -392,7 +392,7 @@
                   </a>
                 </a-card>
               </a-timeline-item>
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -436,7 +436,7 @@
                   </a>
                 </a-card>
               </a-timeline-item>
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -468,7 +468,7 @@
                   </a>
                 </a-card>
               </a-timeline-item>
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -498,7 +498,7 @@
                   </a>
                 </a-card>
               </a-timeline-item>
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -533,14 +533,14 @@
             </a-timeline>
           </a-tab-pane>
 
-          <!-- 整活 -->
+          <!-- 其他 -->
           <a-tab-pane key="3" class="tab-pane-wrapper">
             <span slot="tab" :style="headStyle">
               <a-icon type="reddit" />
               其他
             </span>
             <a-timeline :reverse="true">
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -568,7 +568,7 @@
                   </a>
                 </a-card>
               </a-timeline-item>
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -596,7 +596,7 @@
                   </a>
                 </a-card>
               </a-timeline-item>
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -629,7 +629,7 @@
                   </a>
                 </a-card>
               </a-timeline-item>
-              <a-timeline-item color="green">
+              <a-timeline-item color="red">
                 <a-icon slot="dot" type="up" style="font-size: 16px;" />
                 <a-card class="card-wrapper">
                   <a
@@ -674,7 +674,7 @@ export default {
       // 根据标签切换，更改背景图
       bgImg: {
         backgroundImage:
-          'url(' + require('@/assets/image/背景图/通用背景图-3.jpg') + ')'
+          'url(' + require('@/assets/image/背景图/通用背景图-3.png') + ')'
       },
       // 改变标签字体
       headStyle: {
@@ -688,17 +688,17 @@ export default {
       if (activeKey === '1') {
         this.bgImg = {
           backgroundImage:
-            'url(' + require('@/assets/image/背景图/通用背景图-3.jpg') + ')'
+            'url(' + require('@/assets/image/背景图/通用背景图-3.png') + ')'
         }
       } else if (activeKey === '2') {
         this.bgImg = {
           backgroundImage:
-            'url(' + require('@/assets/image/背景图/通用背景图-4.jpg') + ')'
+            'url(' + require('@/assets/image/背景图/通用背景图-4.png') + ')'
         }
       } else if (activeKey === '3') {
         this.bgImg = {
           backgroundImage:
-            'url(' + require('@/assets/image/背景图/通用背景图-5.jpg') + ')'
+            'url(' + require('@/assets/image/背景图/通用背景图-5.png') + ')'
         }
       }
     }
@@ -723,7 +723,7 @@ export default {
     width: 100%;
     min-height: 100vh;
     padding: 40px 0;
-    background: 50% 50% no-repeat fixed;
+    background: 50% 20% no-repeat fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
