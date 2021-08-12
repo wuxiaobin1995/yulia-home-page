@@ -1,19 +1,18 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 17:03:36
- * @LastEditTime: 2021-08-10 15:36:41
+ * @LastEditTime: 2021-08-12 14:49:16
  * @Description : 视频投稿
 -->
 <template>
   <div class="container">
     <!-- 视频投稿 -->
-    <div :style="bgImg" class="video-container">
+    <div class="video-container">
       <div class="video-wrapper">
         <!-- 卡片容器 -->
         <a-tabs
           default-active-key="1"
           tab-position="top"
-          @change="handleChangeTab"
         >
           <!-- 原创曲 -->
           <a-tab-pane key="1" class="tab-pane-wrapper">
@@ -671,35 +670,9 @@ export default {
 
   data() {
     return {
-      // 根据标签切换，更改背景图
-      bgImg: {
-        backgroundImage:
-          'url(' + require('@/assets/image/背景图/通用背景图-3.png') + ')'
-      },
       // 改变标签字体
       headStyle: {
         'font-size': '26px'
-      }
-    }
-  },
-
-  methods: {
-    handleChangeTab(activeKey) {
-      if (activeKey === '1') {
-        this.bgImg = {
-          backgroundImage:
-            'url(' + require('@/assets/image/背景图/通用背景图-3.png') + ')'
-        }
-      } else if (activeKey === '2') {
-        this.bgImg = {
-          backgroundImage:
-            'url(' + require('@/assets/image/背景图/通用背景图-4.png') + ')'
-        }
-      } else if (activeKey === '3') {
-        this.bgImg = {
-          backgroundImage:
-            'url(' + require('@/assets/image/背景图/通用背景图-5.png') + ')'
-        }
       }
     }
   }
@@ -723,14 +696,15 @@ export default {
     width: 100%;
     min-height: 100vh;
     padding: 40px 0;
-    background: 50% 20% no-repeat fixed;
+    background: url('../../assets/image/背景图/通用背景图-3.jpg') 50% 10%
+      no-repeat fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
 
     .video-wrapper {
       width: 80%;
-      background-color: rgba(255, 255, 255, 0.12);
+      background-color: rgba(0, 0, 0, 0.08);
       border-radius: 16px;
 
       .tab-pane-wrapper {
@@ -739,7 +713,7 @@ export default {
         .card-wrapper {
           border-radius: 16px;
           &:hover {
-            box-shadow: 0 0 4px 4px rgb(255, 115, 0); // 添加下阴影
+            box-shadow: 0 0 2px 3px rgb(255, 115, 0); // 添加下阴影
           }
           .content-wrapper {
             display: flex;

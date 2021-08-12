@@ -1,14 +1,14 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 15:48:11
- * @LastEditTime: 2021-08-05 15:52:50
+ * @LastEditTime: 2021-08-12 14:47:04
  * @Description : 顶部栏
 -->
 <template>
   <div class="container">
     <!-- Logo -->
     <div class="logo-wrapper">
-      <router-link to="/home">
+      <router-link to="/">
         <img class="logo" :src="require('@/assets/image/logo/尤利娅logo.png')" />
       </router-link>
       <div class="text">Atlantis</div>
@@ -83,7 +83,7 @@ export default {
      * @description: 跳转至首页
      */
     handleGoHome() {
-      this.$router.push({ path: '/home' })
+      this.$router.push({ path: '/' })
     },
     /**
      * @description: 跳转至时间线

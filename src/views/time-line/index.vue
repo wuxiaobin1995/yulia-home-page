@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-08-02 20:19:45
- * @LastEditTime: 2021-08-10 14:34:40
+ * @LastEditTime: 2021-08-12 11:19:05
  * @Description : 时间线
 -->
 <template>
@@ -10,7 +10,7 @@
       <div class="time-line-wrapper">
         <!-- 按钮 -->
         <a-button type="danger" @click="handleChangeReverse">
-          排序
+          {{ reverse === true ? '倒序' : '正序' }}
         </a-button>
 
         <!-- 时间线 -->
@@ -734,7 +734,7 @@ export default {
 
   data() {
     return {
-      reverse: true
+      reverse: true // 排序
     }
   },
 
@@ -765,7 +765,7 @@ export default {
   .time-line-container {
     width: 100%;
     padding: 40px 0;
-    background: url('../../assets/image/背景图/通用背景图-2.png') 50% 40%
+    background: url('../../assets/image/背景图/通用背景图-2.jpg') 50% 100%
       no-repeat fixed;
     background-size: cover;
     display: flex;
@@ -779,6 +779,7 @@ export default {
       .item-wrapper {
         border-radius: 16px;
         text-align: left;
+        box-shadow: 0 0 8px 4px rgb(100, 100, 100); // 添加下阴影
         &:hover {
           box-shadow: 0 0 4px 4px rgb(255, 115, 0); // 添加下阴影
         }

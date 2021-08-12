@@ -1,7 +1,7 @@
 /*
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 11:49:52
- * @LastEditTime: 2021-08-03 17:28:20
+ * @LastEditTime: 2021-08-12 14:45:04
  * @Description : 路由
  */
 import Vue from 'vue'
@@ -20,11 +20,11 @@ const routes = [
     path: '/',
     name: 'layout',
     component: () => import('@/layout'),
-    redirect: '/home',
+    redirect: '/',
     children: [
       // 首页
       {
-        path: 'home',
+        path: '/',
         name: 'home',
         component: () => import('@/views/home')
       },

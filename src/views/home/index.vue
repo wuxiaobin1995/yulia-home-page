@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 11:56:37
- * @LastEditTime: 2021-08-10 16:00:13
+ * @LastEditTime: 2021-08-12 11:58:33
  * @Description : 首页
 -->
 <template>
@@ -20,6 +20,8 @@
           </a>
         </swiper-slide>
         <div class="swiper-pagination" slot="pagination"></div>
+        <div class="swiper-button-prev swiper-button-black"></div>
+        <div class="swiper-button-next swiper-button-black"></div>
       </swiper>
     </div>
 
@@ -261,8 +263,13 @@ export default {
           el: '.swiper-pagination',
           dynamicBullets: true
         },
+        // 箭头
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        },
         effect: 'fade', // 切换效果
-        speed: 1500, // 切换速度
+        speed: 500, // 切换速度
         autoplay: {
           delay: 3500, // 切换间隔时间
           disableOnInteraction: false
@@ -390,7 +397,7 @@ export default {
   .introduction-container {
     width: 100%;
     padding: 40px 0 40px 0;
-    background-color: rgb(245, 247, 250);
+    background-color: rgba(245, 247, 250, 1);
     display: flex;
     justify-content: center;
     // 卡片
@@ -469,6 +476,9 @@ export default {
   .model-container {
     width: 100%;
     padding: 40px 0 0 0;
+    background: url('../../assets/image/背景图/通用背景图-4.png') 50% 50%
+      no-repeat fixed;
+    background-size: cover;
     display: flex;
     justify-content: center;
     .model-wrapper {
