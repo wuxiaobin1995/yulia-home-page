@@ -1,7 +1,7 @@
 /*
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 11:49:52
- * @LastEditTime: 2021-08-10 15:40:32
+ * @LastEditTime: 2021-08-13 10:50:51
  * @Description : 入口
  */
 import Vue from 'vue'
@@ -20,9 +20,15 @@ import QProgress from 'qier-progress'
 /* 引入轮播图插件，请用3.x版本 */
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
+/* 引入音乐播放器插件 */
+import APlayer from '@moefe/vue-aplayer'
 
 Vue.use(Antd)
 Vue.use(VueAwesomeSwiper)
+Vue.use(APlayer, {
+  defaultCover: require('../src/assets/music/默认封面.png'), // 设置播放器默认封面图片
+  productionTip: false // 是否在控制台输出版本信息
+})
 
 Vue.config.productionTip = false
 

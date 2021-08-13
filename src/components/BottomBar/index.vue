@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 15:49:57
- * @LastEditTime: 2021-08-10 17:07:57
+ * @LastEditTime: 2021-08-13 16:06:49
  * @Description : 底部栏
 -->
 <template>
@@ -46,7 +46,11 @@
             >
             负责
           </div>
-          <div>本网站已运行：{{ runtime }} 天</div>
+          <div>
+            本网站已运行：<span :style="{ color: 'red' }">
+              {{ runtime }} 天
+            </span>
+          </div>
         </div>
       </div>
     </div>

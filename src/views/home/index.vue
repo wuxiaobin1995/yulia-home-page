@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 11:56:37
- * @LastEditTime: 2021-08-12 11:58:33
+ * @LastEditTime: 2021-08-13 17:41:44
  * @Description : 首页
 -->
 <template>
@@ -28,168 +28,182 @@
     <!-- 个人介绍 -->
     <div class="introduction-container">
       <a-card class="card-wrapper" :bordered="false">
-        <a-divider orientation="center" class="title">尤利娅是谁？</a-divider>
-        <a-tabs default-active-key="1" tab-position="right" size="large">
-          <!-- 简介 -->
-          <a-tab-pane key="1">
-            <span slot="tab">
-              <svg class="icon" aria-hidden="true">
-                <use xlink:href="#icon-bianzu"></use>
-              </svg>
-              简介
-            </span>
-            <div class="tab-item-wrapper one">
-              <!-- 左侧介绍栏 -->
-              <div class="one-avatar">
-                <!-- 头像 -->
-                <a-avatar :src="yuliaAvatar" :size="200" />
-                <!-- 标签 -->
-                <div class="tags">
-                  <div class="item">
-                    UID：
-                    <a-tag color="green">
-                      650573749
-                    </a-tag>
-                  </div>
-                  <div class="item">
-                    住址：
-                    <a-tag color="cyan">
-                      亚特兰蒂斯王国
-                    </a-tag>
-                  </div>
-                  <div class="item">
-                    身份：
-                    <a-tag color="orange">
-                      Atlantis-塞壬公主
-                    </a-tag>
-                  </div>
-                  <div class="item">
-                    粉丝群：
-                    <a-tag color="pink">
-                      561506737
-                    </a-tag>
-                  </div>
-                  <div class="item">
-                    年龄：
-                    <a-tag color="gray">
-                      保密
-                    </a-tag>
-                  </div>
-                  <div class="item">
-                    身高：
-                    <a-tag color="">
-                      2米
-                    </a-tag>
-                  </div>
-                  <div class="item">
-                    体重：
-                    <a-tag color="">
-                      180吨
-                    </a-tag>
-                  </div>
-                  <div class="item">
-                    爱好：
-                    <a-tag color="purple">
-                      恰海吵
-                    </a-tag>
-                    <a-tag color="purple">
-                      wasabi~
-                    </a-tag>
-                  </div>
+        <!-- 大标题 -->
+        <a-divider orientation="center" class="card-title">
+          尤利娅是谁？
+        </a-divider>
+        <!-- 内容区 -->
+        <div class="card-content-wrapper">
+          <!-- 个人印象 -->
+          <div class="avatar">
+            <!-- 头像 -->
+            <a-avatar :src="yuliaAvatar" :size="200" />
+            <!-- 标签 -->
+            <div class="tags">
+              <div class="item">
+                UID：
+                <a-tag color="green">
+                  650573749
+                </a-tag>
+              </div>
+              <div class="item">
+                住址：
+                <a-tag color="cyan">
+                  亚特兰蒂斯王国
+                </a-tag>
+              </div>
+              <div class="item">
+                身份：
+                <a-tag color="orange">
+                  Atlantis-塞壬公主
+                </a-tag>
+              </div>
+              <div class="item">
+                粉丝群：
+                <a-tag color="pink">
+                  561506737
+                </a-tag>
+              </div>
+              <div class="item">
+                年龄：
+                <a-tag color="gray">
+                  保密
+                </a-tag>
+              </div>
+              <div class="item">
+                身高：
+                <a-tag color="">
+                  2米
+                </a-tag>
+              </div>
+              <div class="item">
+                体重：
+                <a-tag color="">
+                  180吨
+                </a-tag>
+              </div>
+              <div class="item">
+                爱好：
+                <a-tag color="purple">
+                  恰海吵
+                </a-tag>
+                <a-tag color="purple">
+                  wasabi~
+                </a-tag>
+              </div>
+            </div>
+          </div>
+          <!-- 详细内容 -->
+          <a-tabs
+            class="tabs-wrapper"
+            default-active-key="1"
+            tab-position="right"
+            size="large"
+          >
+            <!-- 简介 -->
+            <a-tab-pane key="1">
+              <span slot="tab">
+                <svg class="icon" aria-hidden="true">
+                  <use xlink:href="#icon-bianzu"></use>
+                </svg>
+                简介
+              </span>
+              <div class="one">
+                <div class="one-content">
+                  <p>
+                    ✨完全属于自己，无公会，非签约，独立个人势，不是全职✨
+                  </p>
+                  <p>
+                    尤利娅Yulia（更多会叫：鱼鱼），作为沉睡多年苏醒的塞壬，如今来到陆地上学习啦！
+                  </p>
+                  <p>
+                    因为塞壬的天性，所以很喜欢唱歌！并且唱歌很好听！黑听人的理想直播间！但是如果可以的话还请多发弹幕应援（鞠躬）
+                  </p>
+                  <p>
+                    为人比较感性，性格也是有话直说的类型，开心就是开心，不开心就是不开心；在工作的态度会非常认真和投入，始终贯彻着“一件事情要做，就要把它做好”的信念；为了让自己的作品始终呈现出最好的给大家，不懈努力中！
+                  </p>
+                  <p>
+                    当VUP的初衷是为了让更多人能够听见自己的歌声，而非当做一个吃饭的职业；因此现在可以将所有收入拿出来投入VUP事业，甚至不惜自己贴钱来投入其中！（债务增加中...）
+                  </p>
+                  <p>
+                    因为只打算作为兴趣爱好来做VUP，所以现在没打算加入任何公会、企业或社团，也未曾与叔叔签约。
+                  </p>
                 </div>
               </div>
-              <!-- 详细介绍 -->
-              <div class="one-content">
-                <p>
-                  ✨完全属于自己，无公会，非签约，独立个人势，不是全职✨
-                </p>
-                <p>
-                  尤利娅Yulia（鱼鱼、理理、lili、尤老师、牛老师、鱼人、腮人、SUREN）沉睡多年苏醒的塞壬来到陆地上学习！
-                </p>
-                <p>
-                  因为是塞壬，所以很喜欢唱歌！并且唱歌很好听！是黑听人的理想直播间！但是如果可以的话还请多发弹幕应援（鞠躬）
-                  性子很直，说话也很直，开心就是开心，不开心就是不开心，对待工作的态度非常认真，有着“一件事情要做就要把它做好”的信念，总是想把作品做到最好再呈现给大家
-                  当VUP是为了让更多人能够听见自己的歌声，并不打算拿VUP当做一个吃饭的职业，所以能够做到把所有收入拿出来在投
-                  入进来，甚至自己还另外掏钱出来投入（债务增加中...）。
-                </p>
-                <p>
-                  因为只打算当做兴趣爱好来做所以没打算加入任何工会、企业、社团，也没和叔叔签约。
-                </p>
-              </div>
-            </div>
-          </a-tab-pane>
+            </a-tab-pane>
 
-          <!-- 歌唱 -->
-          <a-tab-pane key="2">
-            <span slot="tab">
-              <svg class="icon" aria-hidden="true">
-                <use xlink:href="#icon-changge"></use>
-              </svg>
-              歌唱
-            </span>
-            <div class="tab-item-wrapper two">
-              <div class="two-content">
-                <p>
-                  1、中：古风、戏曲、民乐、流行音乐
-                </p>
-                <p>
-                  2、英：民谣、歌剧、美声、流行音乐
-                </p>
-                <p>3、日：罗马音战士......................</p>
-                <p>
-                  4、俄：极道弹舌.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​
-                </p>
-                <p>5、意大利：歌剧、音乐剧..............</p>
-                <p>6 、小语种：歌剧、音乐剧..............</p>
+            <!-- 歌唱 -->
+            <a-tab-pane key="2">
+              <span slot="tab">
+                <svg class="icon" aria-hidden="true">
+                  <use xlink:href="#icon-changge"></use>
+                </svg>
+                歌唱
+              </span>
+              <div class="two">
+                <div class="two-content">
+                  <p>
+                    1、中：古风、戏曲、民乐、流行音乐
+                  </p>
+                  <p>
+                    2、英：民谣、歌剧、美声、流行音乐
+                  </p>
+                  <p>3、日：罗马音战士......................</p>
+                  <p>
+                    4、俄：极道弹舌.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​
+                  </p>
+                  <p>5、意大利：歌剧、音乐剧..............</p>
+                  <p>6 、小语种：歌剧、音乐剧..............</p>
+                </div>
               </div>
-            </div>
-          </a-tab-pane>
+            </a-tab-pane>
 
-          <!-- 乐器 -->
-          <a-tab-pane key="3">
-            <span slot="tab">
-              <svg class="icon" aria-hidden="true">
-                <use xlink:href="#icon-gangqin"></use>
-              </svg>
-              乐器
-            </span>
-            <div class="tab-item-wrapper three">
-              <div class="three-content">
-                <p>钢琴、二胡、里拉琴、竹笛、卡祖笛</p>
+            <!-- 乐器 -->
+            <a-tab-pane key="3">
+              <span slot="tab">
+                <svg class="icon" aria-hidden="true">
+                  <use xlink:href="#icon-gangqin"></use>
+                </svg>
+                乐器
+              </span>
+              <div class="three">
+                <div class="three-content">
+                  <p>钢琴、二胡、里拉琴、竹笛、卡祖笛</p>
+                </div>
               </div>
-            </div>
-          </a-tab-pane>
+            </a-tab-pane>
 
-          <!-- 舞蹈 -->
-          <a-tab-pane key="4">
-            <span slot="tab">
-              <svg class="icon" aria-hidden="true">
-                <use xlink:href="#icon-wudaoyishuye"></use>
-              </svg>
-              舞蹈
-            </span>
-            <div class="tab-item-wrapper four">
-              <div class="four-content">
-                <p>民族舞、芭蕾舞、韩舞、现代舞</p>
+            <!-- 舞蹈 -->
+            <a-tab-pane key="4">
+              <span slot="tab">
+                <svg class="icon" aria-hidden="true">
+                  <use xlink:href="#icon-wudaoyishuye"></use>
+                </svg>
+                舞蹈
+              </span>
+              <div class="four">
+                <div class="four-content">
+                  <p>民族舞、芭蕾舞、韩舞、现代舞</p>
+                </div>
               </div>
-            </div>
-          </a-tab-pane>
+            </a-tab-pane>
 
-          <!-- 特长 -->
-          <a-tab-pane key="5">
-            <span slot="tab">
-              <svg class="icon" aria-hidden="true">
-                <use xlink:href="#icon--huangguan"></use>
-              </svg>
-              特长
-            </span>
-            <div class="tab-item-wrapper five">
-              <div class="five-content">
-                <p>超高音、弹舌、说相声</p>
+            <!-- 特长 -->
+            <a-tab-pane key="5">
+              <span slot="tab">
+                <svg class="icon" aria-hidden="true">
+                  <use xlink:href="#icon--huangguan"></use>
+                </svg>
+                特长
+              </span>
+              <div class="five">
+                <div class="five-content">
+                  <p>超高音、弹舌、说相声</p>
+                </div>
               </div>
-            </div>
-          </a-tab-pane>
-        </a-tabs>
+            </a-tab-pane>
+          </a-tabs>
+        </div>
       </a-card>
     </div>
 
@@ -405,23 +419,23 @@ export default {
       width: 80%;
       box-shadow: 0 4px 6px 2px rgb(180, 180, 180); // 添加下阴影
       border-radius: 10px;
-      .title {
+      // 大标题
+      .card-title {
         font-size: 32px;
         font-weight: 700;
       }
-      .tab-item-wrapper {
-        height: 500px;
-      }
-      // 简介
-      .one {
+      // 内容区
+      .card-content-wrapper {
         display: flex;
-        // 左侧介绍栏
-        .one-avatar {
+        // 个人印象
+        .avatar {
           display: flex;
           flex-direction: column;
           align-items: center;
+          padding-right: 20px;
+          border-right: 1px solid #e8e8e8;
           .tags {
-            padding-top: 20px;
+            padding-top: 26px;
             font-size: 16px;
             font-weight: 700;
             .item {
@@ -429,44 +443,50 @@ export default {
             }
           }
         }
-        // 详细介绍
-        .one-content {
-          padding-top: 40px;
-          padding-left: 40px;
-          font-size: 22px;
-          text-indent: 2em;
-        }
-      }
-      // 歌唱
-      .two {
-        .two-content {
-          padding-top: 40px;
-          font-size: 22px;
-          text-indent: 2em;
-        }
-      }
-      // 乐器
-      .three {
-        .three-content {
-          padding-top: 40px;
-          font-size: 22px;
-          text-indent: 2em;
-        }
-      }
-      // 舞蹈
-      .four {
-        .four-content {
-          padding-top: 40px;
-          font-size: 22px;
-          text-indent: 2em;
-        }
-      }
-      // 特长
-      .five {
-        .five-content {
-          padding-top: 40px;
-          font-size: 22px;
-          text-indent: 2em;
+        // 详细内容
+        .tabs-wrapper {
+          flex: 1;
+          // 简介
+          .one {
+            .one-content {
+              padding-top: 20px;
+              padding-left: 24px;
+              font-size: 22px;
+              text-indent: 2em;
+            }
+          }
+          // 歌唱
+          .two {
+            .two-content {
+              padding-top: 20px;
+              padding-left: 24px;
+              font-size: 22px;
+            }
+          }
+          // 乐器
+          .three {
+            .three-content {
+              padding-top: 20px;
+              padding-left: 24px;
+              font-size: 22px;
+            }
+          }
+          // 舞蹈
+          .four {
+            .four-content {
+              padding-top: 20px;
+              padding-left: 24px;
+              font-size: 22px;
+            }
+          }
+          // 特长
+          .five {
+            .five-content {
+              padding-top: 20px;
+              padding-left: 24px;
+              font-size: 22px;
+            }
+          }
         }
       }
     }

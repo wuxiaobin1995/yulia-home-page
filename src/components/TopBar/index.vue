@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 15:48:11
- * @LastEditTime: 2021-08-12 14:47:04
+ * @LastEditTime: 2021-08-13 09:57:31
  * @Description : 顶部栏
 -->
 <template>
@@ -9,20 +9,13 @@
     <!-- Logo -->
     <div class="logo-wrapper">
       <router-link to="/">
-        <img class="logo" :src="require('@/assets/image/logo/尤利娅logo.png')" />
+        <img
+          class="logo"
+          :src="require('@/assets/image/logo/尤利娅logo.png')"
+        />
       </router-link>
       <div class="text">Atlantis</div>
     </div>
-
-    <!-- 搜索框 -->
-    <a-input-search
-      size="large"
-      placeholder="🐟 搜索功能暂未开放..."
-      style="width: 300px"
-      allow-clear
-      disabled
-      @search="handleSearch"
-    />
 
     <!-- 菜单栏 -->
     <div class="menu-wrapper">
@@ -72,13 +65,6 @@ export default {
   name: 'TopBar',
 
   methods: {
-    /**
-     * @description: 搜索框
-     */
-    handleSearch(value) {
-      // console.log(value)
-    },
-
     /**
      * @description: 跳转至首页
      */

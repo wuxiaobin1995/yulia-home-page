@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-08-02 20:23:21
- * @LastEditTime: 2021-08-10 15:54:55
+ * @LastEditTime: 2021-08-13 16:12:18
  * @Description : 二创相关
 -->
 <template>
@@ -168,7 +168,24 @@
       <div id="others" class="wrapper others-wrapper">
         <a-divider class="title" orientation="left">其他</a-divider>
         <div class="content-wrapper">
-          <div>暂定......</div>
+          <a-button type="primary" @click="handleShowDrawer"
+            >首次百舰纪念大海报</a-button
+          >
+          <!-- 抽屉-百舰海报 -->
+          <a-drawer
+            title="首次百舰纪念大海报"
+            placement="right"
+            :closable="true"
+            :visible="visible"
+            @close="handleCloseDrawer"
+            :zIndex="1002"
+            :width="800"
+          >
+            <img
+              :src="require('../../assets/image/首次百舰纪念大海报.jpg')"
+              :style="{ width: '100%' }"
+            />
+          </a-drawer>
         </div>
       </div>
     </div>
@@ -181,7 +198,24 @@ export default {
 
   data() {
     return {
-      targetOffset: window.innerHeight / 10 // 锚点偏移量
+      targetOffset: window.innerHeight / 10, // 锚点偏移量
+      visible: false // 抽屉开关
+    }
+  },
+
+  methods: {
+    /**
+     * @description: 打开抽屉
+     */
+    handleShowDrawer() {
+      this.visible = true
+    },
+
+    /**
+     * @description: 关闭抽屉
+     */
+    handleCloseDrawer() {
+      this.visible = false
     }
   }
 }
@@ -212,7 +246,6 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     // 通用样式
     .wrapper {
       width: 70%;
