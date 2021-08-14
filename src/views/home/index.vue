@@ -1,7 +1,7 @@
 <!--
- * @Author      : 吴晓斌
- * @Date        : 2021-07-30 11:56:37
- * @LastEditTime: 2021-08-13 17:41:44
+ * @Author      : wuxiaobin1995
+ * @Date        : 2021-08-04 09:06:42
+ * @LastEditTime: 2021-08-14 11:15:21
  * @Description : 首页
 -->
 <template>
@@ -148,12 +148,12 @@
                   <p>
                     2、英：民谣、歌剧、美声、流行音乐
                   </p>
-                  <p>3、日：罗马音战士......................</p>
+                  <p>3、日：罗马音战士</p>
                   <p>
-                    4、俄：极道弹舌.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​
+                    4、俄：极道弹舌
                   </p>
-                  <p>5、意大利：歌剧、音乐剧..............</p>
-                  <p>6 、小语种：歌剧、音乐剧..............</p>
+                  <p>5、意大利：歌剧、音乐剧</p>
+                  <p>6 、小语种：歌剧、音乐剧</p>
                 </div>
               </div>
             </a-tab-pane>
@@ -199,6 +199,29 @@
               <div class="five">
                 <div class="five-content">
                   <p>超高音、弹舌、说相声</p>
+                </div>
+              </div>
+            </a-tab-pane>
+
+            <!-- 悄悄话 -->
+            <a-tab-pane key="6">
+              <span slot="tab">
+                <svg class="icon" aria-hidden="true">
+                  <use xlink:href="#icon-qiaoqiaohua"></use>
+                </svg>
+                悄悄话
+              </span>
+              <div class="six">
+                <div class="six-content">
+                  <p>
+                    1、尤利娅是刚开始系统学习音乐、舞蹈、乐器等，所以有唱得不好的大家见谅见谅，大家安静听歌、享受音乐就好(*^_^*)
+                  </p>
+                  <p>
+                    2、她挺在意自己的粉丝们的，而且很愿意跟粉丝们做朋友，她认为：演绎者和粉丝、观众应该是互相照亮的，大家互相尊重、互相进步、保持合理的距离，这样的关系才是良性的、可持续的。
+                  </p>
+                  <p>
+                    3、她未来的志向是登台表演，所学专业也是偏向舞台表演的，祝她终有一天能实现。致此：“梦想再大也不嫌大，追梦的人再小也不嫌小”。
+                  </p>
                 </div>
               </div>
             </a-tab-pane>
@@ -299,73 +322,73 @@ export default {
           src: require('@/assets/image/立绘/初始皮-白.jpg'),
           name: '初始皮-白.jpg',
           title: '初始皮-白',
-          content: '初始皮-白初始皮-白'
+          content: ''
         },
         {
           src: require('@/assets/image/立绘/原始皮-黑.png'),
           name: '原始皮-黑.png',
           title: '原始皮-黑',
-          content: '原始皮-黑原始皮-黑'
+          content: ''
         },
         {
           src: require('@/assets/image/立绘/幼利娅-皮.jpg'),
           name: '幼利娅-皮.jpg',
           title: '幼利娅-皮',
-          content: '幼利娅-皮幼利娅-皮'
+          content: ''
         },
         {
           src: require('@/assets/image/立绘/毛衣皮-棕色.png'),
           name: '毛衣皮-棕色.png',
           title: '毛衣皮-棕色',
-          content: '毛衣皮-棕色毛衣皮-棕色'
+          content: ''
         },
         {
           src: require('@/assets/image/立绘/毛衣皮-粉色.jpg'),
           name: '毛衣皮-粉色.jpg',
           title: '毛衣皮-粉色',
-          content: '毛衣皮-粉色毛衣皮-粉色'
+          content: ''
         },
         {
           src: require('@/assets/image/立绘/理理.png'),
           name: '理理.png',
           title: '理理',
-          content: '理理理理'
+          content: ''
         },
         {
           src: require('@/assets/image/立绘/白旗袍-黑发.png'),
           name: '白旗袍-黑发.png',
           title: '白旗袍-黑发',
-          content: '白旗袍-黑发白旗袍-黑发'
+          content: ''
         },
         {
           src: require('@/assets/image/立绘/白旗袍-白发.png'),
           name: '白旗袍-白发.png',
           title: '白旗袍-白发',
-          content: '白旗袍-白发白旗袍-白发'
+          content: ''
         },
         {
           src: require('@/assets/image/立绘/红旗袍.png'),
           name: '红旗袍.png',
           title: '红旗袍',
-          content: '红旗袍红旗袍'
+          content: ''
         },
         {
           src: require('@/assets/image/立绘/璐蜜娜.jpg'),
           name: '璐蜜娜.jpg',
           title: '璐蜜娜',
-          content: '璐蜜娜璐蜜娜'
+          content: ''
         },
         {
           src: require('@/assets/image/立绘/偶像服.png'),
           name: '偶像服.png',
           title: '偶像服',
-          content: '偶像服偶像服'
+          content: ''
         },
         {
           src: require('@/assets/image/立绘/JK服.png'),
           name: 'JK服.png',
           title: 'JK服',
-          content: 'JK服JK服'
+          content: ''
         }
       ]
     }
@@ -461,6 +484,7 @@ export default {
               padding-top: 20px;
               padding-left: 24px;
               font-size: 22px;
+              text-indent: 2em;
             }
           }
           // 乐器
@@ -469,6 +493,7 @@ export default {
               padding-top: 20px;
               padding-left: 24px;
               font-size: 22px;
+              text-indent: 2em;
             }
           }
           // 舞蹈
@@ -477,6 +502,7 @@ export default {
               padding-top: 20px;
               padding-left: 24px;
               font-size: 22px;
+              text-indent: 2em;
             }
           }
           // 特长
@@ -485,6 +511,16 @@ export default {
               padding-top: 20px;
               padding-left: 24px;
               font-size: 22px;
+              text-indent: 2em;
+            }
+          }
+          // 悄悄话
+          .six {
+            .six-content {
+              padding-top: 20px;
+              padding-left: 24px;
+              font-size: 22px;
+              text-indent: 2em;
             }
           }
         }

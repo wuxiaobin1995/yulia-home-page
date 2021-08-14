@@ -6,6 +6,13 @@
   "description": "尤利娅Yulia的个人网站",
   "glyphs": [
     {
+      "icon_id": "13666017",
+      "name": "悄悄话",
+      "font_class": "qiaoqiaohua",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
       "icon_id": "3327149",
       "name": "视频 (1)",
       "font_class": "shipin",

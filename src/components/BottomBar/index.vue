@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2021-07-30 15:49:57
- * @LastEditTime: 2021-08-13 16:06:49
+ * @LastEditTime: 2021-08-14 10:46:40
  * @Description : 底部栏
 -->
 <template>
@@ -12,9 +12,9 @@
         <div class="title">关于</div>
         <div>
           本站为
-          <a href="https://space.bilibili.com/650573749" target="_blank"
-            >@尤利娅Yulia</a
-          >
+          <a href="https://space.bilibili.com/650573749" target="_blank">
+            <span :style="{ color: '#1890ff' }">@尤利娅Yulia</span>
+          </a>
           的个人网站，于2021-08-15创建，非营利性质，完全出于喜爱才建站的，希望更多人喜欢。
         </div>
       </div>
@@ -35,15 +35,15 @@
         <div class="title">联系</div>
         <div>
           <span>站长：</span
-          ><a href="https://space.bilibili.com/4110995" target="_blank"
-            >@昏睡茶壶</a
-          >
+          ><a href="https://space.bilibili.com/4110995" target="_blank">
+            <span :style="{ color: '#1890ff' }">@昏睡茶壶</span>
+          </a>
           <div>联系QQ：845225263（请写明来意，否则会拒绝好友申请）</div>
           <div>
             未来后端部分将由
-            <a href="https://space.bilibili.com/40103758" target="_blank"
-              >@熊孩子</a
-            >
+            <a href="https://space.bilibili.com/40103758" target="_blank">
+              <span :style="{ color: '#1890ff' }">@熊孩子</span>
+            </a>
             负责
           </div>
           <div>
@@ -96,6 +96,7 @@ export default {
     .divider {
       border: 1px solid #fff;
     }
+
     // 本站简介
     .des {
       width: 400px;
