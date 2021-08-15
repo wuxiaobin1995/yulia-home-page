@@ -1,7 +1,7 @@
 <!--
- * @Author      : 吴晓斌
+ * @Author      : Mr.bin
  * @Date        : 2021-07-30 15:49:57
- * @LastEditTime: 2021-08-14 10:46:40
+ * @LastEditTime: 2021-08-15 15:26:02
  * @Description : 底部栏
 -->
 <template>

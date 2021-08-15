@@ -1,7 +1,7 @@
 /*
- * @Author      : 吴晓斌
+ * @Author      : Mr.bin
  * @Date        : 2021-07-30 11:49:52
- * @LastEditTime: 2021-08-13 10:50:51
+ * @LastEditTime: 2021-08-15 15:26:26
  * @Description : 入口
  */
 import Vue from 'vue'

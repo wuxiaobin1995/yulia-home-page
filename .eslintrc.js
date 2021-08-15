@@ -1,8 +1,8 @@
 /*
- * @Author      : 吴晓斌
+ * @Author      : Mr.bin
  * @Date        : 2021-07-31 12:34:11
- * @LastEditTime: 2021-08-04 00:42:31
- * @Description :
+ * @LastEditTime: 2021-08-15 15:26:33
+ * @Description : ESLint
  */
 module.exports = {
   root: true,

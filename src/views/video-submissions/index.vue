@@ -1,7 +1,7 @@
 <!--
- * @Author      : 吴晓斌
- * @Date        : 2021-07-30 17:03:36
- * @LastEditTime: 2021-08-12 14:49:16
+ * @Author      : Mr.bin
+ * @Date        : 2021-08-12 18:41:46
+ * @LastEditTime: 2021-08-15 15:25:36
  * @Description : 视频投稿
 -->
 <template>
@@ -10,10 +10,7 @@
     <div class="video-container">
       <div class="video-wrapper">
         <!-- 卡片容器 -->
-        <a-tabs
-          default-active-key="1"
-          tab-position="top"
-        >
+        <a-tabs default-active-key="1" tab-position="top">
           <!-- 原创曲 -->
           <a-tab-pane key="1" class="tab-pane-wrapper">
             <span slot="tab" :style="headStyle">
@@ -650,6 +647,38 @@
                           点我看直播间自动赚钱 快停下你们的80行为吧呜呜呜呜呜呜
                           Staff： 封面：484 剪辑：熊孩子 轴：炭生万物
                           我爱我的劳模们！！
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </a-card>
+              </a-timeline-item>
+              <a-timeline-item color="red">
+                <a-icon slot="dot" type="up" style="font-size: 16px;" />
+                <a-card class="card-wrapper">
+                  <a
+                    href="https://www.bilibili.com/video/BV1qP4y1W7Uq"
+                    target="_blank"
+                  >
+                    <div class="content-wrapper">
+                      <img
+                        :src="
+                          require('@/assets/image/视频封面/鱼鱼的坐牢直播.png')
+                        "
+                        class="video-img"
+                      />
+                      <div class="text-wrapper">
+                        <div class="title">
+                          主 播 坐 牢 回（X）舰 长 鲨 鱼 回
+                        </div>
+                        <div class="desc">
+                          那天的景象，直到现在想起，我都只能用惨烈来形容
+                          我只是一条无辜的主播 不要鲨我了 求求 救 staff表：
+                          封面：宁雪（可可爱爱的雪雪！！）
+                          剪辑：孤风船长（我群剪辑神！！）
+                          文本：不撸猫，孤风船长（只能说耳朵已经换了第七个了）
+                          时轴：卡萨（卡萨宝打了一堆轴）
+                          校对：熊孩子（辛苦了呜呜呜呜）
                         </div>
                       </div>
                     </div>
