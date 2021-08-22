@@ -1,7 +1,7 @@
 <!--
  * @Author      : Mr.bin
  * @Date        : 2021-08-12 18:41:46
- * @LastEditTime: 2021-08-15 15:25:36
+ * @LastEditTime: 2021-08-22 12:59:21
  * @Description : 视频投稿
 -->
 <template>
@@ -520,6 +520,41 @@
                           谢谢所有为这首歌付出的staff们： 原唱：宇多田光
                           翻唱：尤利娅Yulia 后期：萨摩灰 绘图：叨叨 视频：琉璃猫
                           封面：芽Nemuru
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </a-card>
+              </a-timeline-item>
+              <a-timeline-item color="red">
+                <a-icon slot="dot" type="up" style="font-size: 16px;" />
+                <a-card class="card-wrapper">
+                  <a
+                    href="https://www.bilibili.com/video/BV1Sf4y137fX"
+                    target="_blank"
+                  >
+                    <div class="content-wrapper">
+                      <img
+                        :src="
+                          require('@/assets/image/视频封面/中元节的帅气死神REMIX.jpg')
+                        "
+                        class="video-img"
+                      />
+                      <div class="text-wrapper">
+                        <div class="title">
+                          中元节的帅气死神REMIX【wiz可嗒】
+                        </div>
+                        <div class="desc">
+                          和可嗒翻唱了八爷的《死神》 真的很喜欢！！！
+                          特地挑选在中元节这天发，嘿嘿（？
+                          大家可以看看歌词研究一下哦，我们用歌词分出了两个角色！！耶！
+                          顺便，这个是可子的重编曲哦！！
+                          在中间加了一些自己的声音和和风的乐器～
+                          大家可以感受一下不一样风格的死神～
+                          唱得也很爽！感恩子！ 原唱：米津玄师
+                          翻唱：可嗒_Keda&尤利娅Yulia 重编曲：可嗒_Keda
+                          吉他：Ershi 混音：萨摩灰 绘图：浮途 视频：琉璃猫
+                          封面：么羊
                         </div>
                       </div>
                     </div>
