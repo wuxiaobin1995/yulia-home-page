@@ -1,7 +1,7 @@
 <!--
  * @Author      : Mr.bin
  * @Date        : 2021-08-12 18:41:46
- * @LastEditTime: 2021-08-22 12:59:21
+ * @LastEditTime: 2021-09-05 12:05:34
  * @Description : 视频投稿
 -->
 <template>
@@ -555,6 +555,41 @@
                           翻唱：可嗒_Keda&尤利娅Yulia 重编曲：可嗒_Keda
                           吉他：Ershi 混音：萨摩灰 绘图：浮途 视频：琉璃猫
                           封面：么羊
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </a-card>
+              </a-timeline-item>
+              <a-timeline-item color="red">
+                <a-icon slot="dot" type="up" style="font-size: 16px;" />
+                <a-card class="card-wrapper">
+                  <a
+                    href="https://www.bilibili.com/video/BV1aQ4y1C7EJ"
+                    target="_blank"
+                  >
+                    <div class="content-wrapper">
+                      <img
+                        :src="require('@/assets/image/视频封面/First love.jpg')"
+                        class="video-img"
+                      />
+                      <div class="text-wrapper">
+                        <div class="title">
+                          ～First love～献给我们的一周年纪念【尤利娅】
+                        </div>
+                        <div class="desc">
+                          不知不觉间，我们已经相遇一周年啦。
+                          去年的9.6我们第一次遇见彼此，到现在的逐渐了解彼此，经历了365天。
+                          ps：因为开学了所以只能9.5举办周年了，顺便也就在9.5把歌发了呜呜
+                          比起说这是尤利娅的一周年纪念，我更愿意把这个重要的日子称作我们的一周年纪念日。
+                          遇到大家真的很幸运，希望我们可以一直珍惜彼此～
+                          不知道大家还记不记得鱼鱼刚开始直播时候的囧样的，有时候我看着自己早期的直播，都会想：救命这个丢人的鱼是谁啊！！
+                          其实这种回忆的感觉本身就是值得珍惜的，我也相信我还会有下一个一年下下个一年。
+                          最后，我和我的吵吵们一直互相尊重，也都在自己人生（鱼生）的道路上不断努力着。
+                          鱼鱼希望我们的关系一直能像现在一样，互相鼓励互相支持，永远做自己喜欢的事情
+                          那么，祝—— 海吵和鱼鱼相遇一周年快乐！！ staff：
+                          原唱：宇多田光 翻唱：尤利娅Yulia 混音：萨摩灰
+                          绘图：胡不喜 视频：兽人苦工 封面：么羊
                         </div>
                       </div>
                     </div>
