@@ -1,7 +1,7 @@
 <!--
  * @Author      : Mr.bin
  * @Date        : 2021-07-30 11:49:52
- * @LastEditTime: 2021-08-15 15:26:24
+ * @LastEditTime: 2021-09-07 15:13:36
  * @Description : 根组件
 -->
 <template>
@@ -12,7 +12,7 @@
       :audio="audio"
       :fixed="true"
       :mini="true"
-      :volume="0.1"
+      :volume="0.2"
       :listFolded="true"
     />
     <!-- 返回顶部组件 -->
@@ -92,6 +92,12 @@ export default {
           artist: '尤利娅Yulia',
           url: require('../src/assets/music/《桜流し》无损音质.wav'),
           cover: require('../src/assets/music/桜流し.png')
+        },
+        {
+          name: 'First love',
+          artist: '尤利娅Yulia',
+          url: require('../src/assets/music/《First love》无损音质.mp3'),
+          cover: require('../src/assets/music/First-Love.jpg')
         }
       ]
     }

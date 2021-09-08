@@ -1,7 +1,7 @@
 <!--
  * @Author      : Mr.bin
  * @Date        : 2021-08-02 20:19:45
- * @LastEditTime: 2021-08-15 15:27:03
+ * @LastEditTime: 2021-09-07 14:29:13
  * @Description : 时间线
 -->
 <template>
@@ -718,6 +718,36 @@
               <div class="content">
                 <div>
                   小挂件超多，发型超多，超级可爱！
+                </div>
+              </div>
+            </a-card>
+          </a-timeline-item>
+
+          <a-timeline-item>
+            <svg
+              slot="dot"
+              class="icon"
+              aria-hidden="true"
+              :style="{ 'font-size': '14px' }"
+            >
+              <use xlink:href="#icon-Bilibili"></use>
+            </svg>
+            <a-card class="item-wrapper">
+              <div slot="title" class="title">
+                <a
+                  href="https://www.bilibili.com/video/BV1z64y1Y7Vn"
+                  target="_blank"
+                  :style="{ color: 'red' }"
+                  ><a-icon type="link" />&nbsp;出道一周年纪念</a
+                >
+              </div>
+              <a-tag slot="extra" color="#f50" class="date">2021-09-05</a-tag>
+              <div class="content">
+                <div>
+                  比起说这是尤利娅的一周年纪念，我更愿意把这个重要的日子称作我们的一周年纪念日。遇到大家真的很幸运，希望我们可以一直珍惜彼此。
+                </div>
+                <div>
+                  其实这种回忆的感觉本身就是值得珍惜的，我也相信我还会有下一个一年下下个一年。最后，我和我的吵吵们一直互相尊重，也都在自己人生（鱼生）的道路上不断努力着。鱼鱼希望我们的关系一直能像现在一样，互相鼓励互相支持，永远做自己喜欢的事情。那么，祝——海吵和鱼鱼相遇一周年快乐！
                 </div>
               </div>
             </a-card>

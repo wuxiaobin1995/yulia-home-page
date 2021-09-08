@@ -1,7 +1,7 @@
 <!--
  * @Author      : Mr.bin
  * @Date        : 2021-08-04 09:06:42
- * @LastEditTime: 2021-08-15 15:26:58
+ * @LastEditTime: 2021-09-07 14:32:04
  * @Description : 首页
 -->
 <template>
@@ -294,6 +294,10 @@ export default {
         {
           imgSrc: require('@/assets/image/轮播图/8月录播.png'),
           link: 'https://www.bilibili.com/video/BV1sU4y1J7jA'
+        },
+        {
+          imgSrc: require('@/assets/image/轮播图/9月录播.png'),
+          link: 'https://www.bilibili.com/video/BV1z64y1Y7Vn'
         }
       ],
       /* 轮播图配置项 */
