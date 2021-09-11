@@ -1,7 +1,7 @@
 /*
  * @Author      : Mr.bin
  * @Date        : 2021-07-30 11:49:52
- * @LastEditTime: 2021-08-15 15:26:26
+ * @LastEditTime: 2021-09-11 10:03:11
  * @Description : 入口
  */
 import Vue from 'vue'
@@ -30,19 +30,16 @@ Vue.use(APlayer, {
   productionTip: false // 是否在控制台输出版本信息
 })
 
-Vue.config.productionTip = false
-
 const qprogress = new QProgress()
 router.beforeEach((to, from, next) => {
-  // 每次切换页面时，调用进度条
-  qprogress.start()
-  // 这个一定要加，没有next()页面不会跳转的
-  next()
+  qprogress.start() // 每次切换页面时，调用进度条
+  next() // 这个一定要加，没有next()页面不会跳转的
 })
 router.afterEach(() => {
-  // 在即将进入新的页面组件前，关闭掉进度条
-  qprogress.finish()
+  qprogress.finish() // 在即将进入新的页面组件前，关闭掉进度条
 })
+
+Vue.config.productionTip = false
 
 new Vue({
   router,
