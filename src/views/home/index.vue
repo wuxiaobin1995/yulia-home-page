@@ -1,7 +1,7 @@
 <!--
  * @Author      : Mr.bin
  * @Date        : 2021-08-04 09:06:42
- * @LastEditTime: 2021-09-07 14:32:04
+ * @LastEditTime: 2021-09-22 11:54:29
  * @Description : 首页
 -->
 <template>
@@ -395,6 +395,12 @@ export default {
           src: require('@/assets/image/立绘/JK服.png'),
           name: 'JK服.png',
           title: 'JK服',
+          content: ''
+        },
+        {
+          src: require('@/assets/image/立绘/婚纱服.png'),
+          name: '婚纱服.png',
+          title: '婚纱服',
           content: ''
         }
       ]

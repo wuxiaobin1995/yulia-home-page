@@ -1,7 +1,7 @@
 <!--
  * @Author      : Mr.bin
  * @Date        : 2021-07-30 15:49:57
- * @LastEditTime: 2021-08-15 15:26:02
+ * @LastEditTime: 2021-09-22 11:28:23
  * @Description : 底部栏
 -->
 <template>
@@ -24,7 +24,7 @@
       <!-- 版权 -->
       <div class="copyright">
         <div class="title">版权</div>
-        <div>Copyright © 2020~2021 保留所有权利</div>
+        <div>Copyright © 2021~未来 保留所有权利</div>
         <div>本站最终解释权 昏睡茶壶</div>
       </div>
 

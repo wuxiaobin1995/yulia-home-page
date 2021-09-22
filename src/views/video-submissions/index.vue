@@ -1,7 +1,7 @@
 <!--
  * @Author      : Mr.bin
  * @Date        : 2021-08-12 18:41:46
- * @LastEditTime: 2021-09-05 12:05:34
+ * @LastEditTime: 2021-09-22 11:26:50
  * @Description : 视频投稿
 -->
 <template>
@@ -91,6 +91,42 @@
                           曲绘：浮途（超超超牛的途途！！拿到图的时候惊呆了，这就是超级大作吗？！）
                           PV：K_Lacid（千千我的天使！！第一首原创曲就有这么高质量的pv真的很幸福！）
                           封面：么羊（羊他真的很强！！约！！！真的好厉害！）
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </a-card>
+              </a-timeline-item>
+              <a-timeline-item color="red">
+                <a-icon slot="dot" type="up" style="font-size: 16px;" />
+                <a-card class="card-wrapper">
+                  <a
+                    href="https://www.bilibili.com/video/BV1kQ4y1k7kT"
+                    target="_blank"
+                  >
+                    <div class="content-wrapper">
+                      <img
+                        :src="require('@/assets/image/视频封面/纵马执杏来.jpg')"
+                        class="video-img"
+                      />
+                      <div class="text-wrapper">
+                        <div class="title">
+                          【漆柚·尤利娅原创曲】纵马执杏来【人声本家】
+                        </div>
+                        <div class="desc">
+                          SV本家：赤羽&苍穹BV1vq4y1K7tt
+                          人声本家：漆柚&尤利娅Yulia 作曲/编曲/调校：PoKeR_扑克
+                          作词：溯回 曲绘：洲洲（两小无猜）/织亭（纵马执杏）
+                          混音：PoKeR_扑克（SV）/漆柚（人本） 策划/视频:K_Lacid
+                          协力：Fruless
+                          特别感谢：临时被千千抓来帮忙修改文案的楚禅山
+                          =========================== 祁游与将月二人两小无猜。
+                          祁游自幼励志于战场报效国家，而今已是边疆战功赫赫的女将军。自小文雅识晓医理的将月则悄悄作为随军大夫跟在其行军的队伍内，只为照顾这个一向大大咧咧的女将军，祁游自是对此毫不知情。
+                          直至一次祁游于鏖战中险些丧命，在迷离之间竟闻到了只属于故人身上的药草香，醒来后发现日思夜想之人正堪堪坐在床前。
+                          梦醒，复又坠入另一个美梦。
+                          数载后，战事告捷，二人携手还乡，纵马遨游于江湖，好不自在。
+                          最后，大U说“因为太1了所以需要两个圆圆的东西。”
+                          小U评价“我明明就是1装0嘛！”
                         </div>
                       </div>
                     </div>
@@ -749,6 +785,34 @@
                           文本：不撸猫，孤风船长（只能说耳朵已经换了第七个了）
                           时轴：卡萨（卡萨宝打了一堆轴）
                           校对：熊孩子（辛苦了呜呜呜呜）
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </a-card>
+              </a-timeline-item>
+              <a-timeline-item color="red">
+                <a-icon slot="dot" type="up" style="font-size: 16px;" />
+                <a-card class="card-wrapper">
+                  <a
+                    href="https://www.bilibili.com/video/BV1Tq4y1T7Xq"
+                    target="_blank"
+                  >
+                    <div class="content-wrapper">
+                      <img
+                        :src="
+                          require('@/assets/image/视频封面/房塌啦【悲】.png')
+                        "
+                        class="video-img"
+                      />
+                      <div class="text-wrapper">
+                        <div class="title">
+                          虚 拟 人 也 会 塌 房！！！
+                        </div>
+                        <div class="desc">
+                          总之，这是我的塌房经历 希望大家引以为戒 考哥.jpg
+                          感谢我组里的所有宝贝！ 封面：宁雪 剪辑：孤风船长
+                          轴：卡萨 校对：炭生万物
                         </div>
                       </div>
                     </div>
